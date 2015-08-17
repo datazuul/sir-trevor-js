@@ -150,7 +150,7 @@ module.exports = Block.extend({
       this.editorIds.push(editor.id);
     }
 
-    !content && this.focusOn(editor);
+    !content && this.focusOn(editor); // jshint ignore:line
   },
 
   focusOnNeighbor: function(item) {
@@ -173,7 +173,6 @@ module.exports = Block.extend({
     editor.el.focus();
 
     if (range) {
-      console.log(range, lastChild)
       range.setStartAfter(lastChild, 1);
       range.collapse(false);
     }
