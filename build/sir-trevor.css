@@ -113,6 +113,7 @@
   padding: 2em;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #d70014; }
 =======
   color: #d70014;
@@ -122,6 +123,10 @@
   color: #d70014;
   margin-bottom: 2em; }
 >>>>>>> d7774a7... Added dist files
+=======
+  color: #d70014;
+  margin-bottom: 2em; }
+>>>>>>> origin/next
 
 .st-errors p,
 .st-errors ul {
@@ -452,12 +457,15 @@ ul.st-text-block {
   position: relative;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   top: -1.9em;
   left: -1.9em;
 =======
 >>>>>>> 9058e2f... Added dist files
 =======
 >>>>>>> d7774a7... Added dist files
+=======
+>>>>>>> origin/next
   padding: 0.3em 0.5em;
   border: 2px solid #0078FF;
   border-left: none;
