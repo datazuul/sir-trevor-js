@@ -66,6 +66,8 @@ exports.completeAlertPopup = function(text) {
   });
 };
 
+exports.catchError = function(err) { return false; };
+
 beforeAll(function() {
 
   var serverUrl = null;
