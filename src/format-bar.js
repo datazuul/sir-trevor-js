@@ -21,11 +21,7 @@ var FormatBar = function(options, mediator, editor) {
   this.options = Object.assign({}, config.defaults.formatBar, options || {});
   this.commands = this.options.commands;
   this.mediator = mediator;
-<<<<<<< HEAD
   this.isShown = false;
-=======
-  this.hasBound = false;
->>>>>>> dfea921... Fix formatBar
 
   this._ensureElement();
   this._bindFunctions();
